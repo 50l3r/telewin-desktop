@@ -1,6 +1,6 @@
 # telewin
 
-> An electron-vue project
+> Descarga: https://github.com/50l3r/telewin-desktop/releases
 
 #### Build Setup
 
