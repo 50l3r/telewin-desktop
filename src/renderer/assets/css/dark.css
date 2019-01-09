@@ -1,0 +1,488 @@
+/*=================================
+	=            0            =
+=================================*/
+body {
+	background: #2f2e32;
+	color: #858586;
+}
+::-webkit-scrollbar-thumb {
+	background: #38373a;
+}
+/* Forms
+==================================== */
+.form-control {
+	background: #38373a;
+	color: #858586!important;
+}
+.form-control:focus {
+	background: #38373a;
+}
+.form-control::placeholder {
+	color: #858586;
+}
+/* Buttons
+==================================== */
+.button {
+	background: #E2001A;
+	color: #fff;
+	box-shadow: none;
+}
+/* Switch
+==================================== */
+.slider {
+	background-color: #38373a;
+}
+/* Tooltip
+==================================== */
+.tooltip-inner {
+	background: #E2001A;
+	color: #fff;
+}
+.bs-tooltip-top .arrow::before, .bs-tooltip-auto[x-placement^="top"] .arrow::before {
+	border-top-color: #E2001A;
+}
+.bs-tooltip-left .arrow::before, .bs-tooltip-auto[x-placement^="left"] .arrow::before {
+	border-left-color: #E2001A;
+}
+.bs-tooltip-right .arrow::before, .bs-tooltip-auto[x-placement^="right"] .arrow::before {
+	border-right-color: #E2001A;
+}
+.bs-tooltip-bottom .arrow::before, .bs-tooltip-auto[x-placement^="bottom"] .arrow::before {
+	border-bottom-color: #E2001A;
+}
+/* General
+==================================== */
+.avatar-sm {
+	border: 2px solid transparent;
+	box-shadow: none;
+}
+.avatar-md {
+	border: 2px solid transparent;
+	box-shadow: none;
+}
+.avatar-lg {
+	border: 3px solid transparent;
+	box-shadow: none;
+}
+.avatar-xl {
+	border: 3px solid transparent;
+	box-shadow: none;
+}
+.dropdown-menu {
+	background-color: #2f2e32;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.12);
+}
+.dropdown-menu hr {
+	border-top: 2px solid #38373a;
+}
+.dropdown-item {
+	color: #858586;
+	font-weight: 500;
+}
+.dropdown-item:hover {
+	background: #2b2a2e;
+	color: #858586;
+}
+.dropdown-item:focus {
+	color: #858586;
+}
+/* 1. Navigation
+==================================== */
+.navigation {
+	background: #2b2a2e;
+}
+.navigation .inside .menu .avatar-xl:hover {
+	border: 3px solid #E2001A;
+}
+.navigation .inside .menu .material-icons.active {
+	color: #E2001A;
+}
+.navigation .inside .menu .mode {
+	color: #E2001A;
+}
+.navigation .inside .menu .mode:hover {
+	color: #858586;
+}
+/* 2. Sidebar
+==================================== */
+.sidebar {
+	background: #2e2d31;
+}
+.sidebar .search .loop .material-icons {
+	color: #858586;
+}
+.sidebar .sort .btn {
+	font-weight: 600;
+}
+.sidebar .sort .btn.active {
+	color: #fff;
+	background: #38373a;
+}
+.sidebar .create {
+	background: #E2001A;
+	box-shadow: none;
+}
+.sidebar .create .material-icons {
+	color: #fff;
+}
+.sidebar .create.btn:not(:disabled):not(.disabled).active, .create.btn:not(:disabled):not(.disabled):active, .show>.btn.dropdown-toggle {
+	box-shadow: none;
+}
+/* 2.1 Contacts
+==================================== */
+.sidebar .contacts h1 {
+	color: #fff;
+	border-bottom: 2px solid #323135
+}
+.sidebar .contacts .contact {
+	border-bottom: 2px solid #323135;
+}
+.sidebar .contacts .contact:hover {
+	border-bottom: 2px solid #E2001A;
+}
+.sidebar .contacts .contact.active {
+	border-bottom: 2px solid #E2001A;
+}
+.sidebar .contacts .contact .status {
+	border: 5px solid #2e2d31;
+}
+.sidebar .contacts .contact .data h5 {
+	color: #fff;
+}
+.sidebar .contacts .contact .data p {
+	font-weight: 500;
+}
+/* 2.2 Discussions
+==================================== */
+.sidebar .discussions h1 {
+	color: #fff;
+	border-bottom: 2px solid #323135;
+}
+.sidebar .discussions .single {
+	border-bottom: 2px solid #323135;
+}
+.sidebar .discussions .single:hover {
+	border-bottom: 2px solid #E2001A;
+}
+.sidebar .discussions .single.active {
+	border-bottom: 2px solid #E2001A;
+}
+.sidebar .discussions .single.active p {
+	color: #fff;
+}
+.sidebar .discussions .single.active span {
+	color: #fff;
+}
+.sidebar .discussions .single.unread p {
+	color: #fff;
+}
+.sidebar .discussions .single.unread span {
+	color: #fff;
+}
+.sidebar .discussions .single .new {
+	width: 26px;
+	height: 26px;
+	border: 2px solid transparent;
+	box-shadow: none;
+	left: 41px;
+	margin-top: -10px;
+}
+.sidebar .discussions .single .status {
+	border: 5px solid #2e2d31;
+}
+.sidebar .discussions .single .data h5 {
+	color: #fff;
+}
+.sidebar .discussions .single .data p {
+	font-weight: 500;
+}
+.sidebar .discussions .single .data span {
+	font-weight: 500;
+}
+/* 2.3 Notifications
+==================================== */
+.sidebar .notifications h1 {
+	color: #fff;
+	border-bottom: 2px solid #323135;
+}
+.sidebar .notifications .notification {
+	border-bottom: 2px solid #323135;
+}
+.sidebar .notifications .notification:hover {
+	border-bottom: 2px solid #E2001A;
+}
+.sidebar .notifications .notification.active {
+	border-bottom: 2px solid #E2001A;
+}
+.sidebar .notifications .notification .status {
+	border: 5px solid #2e2d31;
+}
+.sidebar .notifications .notification .data p {
+	font-weight: 500;
+	color: #fff;
+}
+.sidebar .notifications .notification .data span {
+	font-weight: 500;
+	color: #858586;
+}
+/* 2.4 Settings
+==================================== */
+.sidebar .settings .profile h1 {
+	color: #fff;
+}
+.sidebar .settings .profile span {
+	font-weight: 500;
+}
+.sidebar .settings .profile .stats {
+	background: #38373a;
+	box-shadow: none;
+}
+.sidebar .settings .profile .stats .item {
+	border-right: 2px solid #403e42;
+}
+.sidebar .settings .profile .stats .item h2 {
+	color: #fff;
+}
+.sidebar .settings .profile .stats .item h3 {
+	font-weight: 500;
+	color: #858586;
+}
+.sidebar .settings .categories h1 {
+	color: #fff;
+	border-bottom: 2px solid #323135;
+}
+.sidebar .settings .categories .category .title {
+	border-bottom: 2px solid #323135;
+}
+.sidebar .settings .categories .category .active {
+	color: #E2001A;
+}
+.sidebar .settings .categories .category .title .data h5 {
+	color: #fff;
+}
+.sidebar .settings .categories .category .title .data p {
+	font-weight: 500;
+	color: #858586;
+}
+.sidebar .settings .categories .category .content {
+	border-bottom: 2px solid #323135;
+}
+.sidebar .settings .categories .category .content.no-layer {
+	padding: 28px 0 25px;
+}
+/* 2.4.1 Profile
+==================================== */
+.sidebar .settings .categories .category .content .upload {
+	background: #38373a;
+	box-shadow: none;
+}
+.sidebar .settings .categories .category .content .upload p {
+	font-weight: 500;
+}
+.sidebar .settings .categories .category .content .field label {
+	color: #fff;
+}
+.sidebar .settings .categories .category .content .field .form-control {
+	font-weight: 500;
+}
+.sidebar .settings .categories .category .content .field .form-control::placeholder {
+	font-weight: 500;
+	font-size: 16px;
+}
+/* 2.4.2 History
+==================================== */
+.sidebar .settings .categories .category .content .history p {
+	font-weight: 500;
+}
+.sidebar .settings .categories .category .content .history .custom-control-label {
+	font-weight: 500;
+}
+.sidebar .settings .categories .category .content .history .custom-control-label::before {
+	background-color: #38373a;
+}
+/* 2.4.3. Connections
+==================================== */
+.sidebar .settings .categories .category .content .app {
+	background: #38373a;
+	box-shadow: none;
+}
+.sidebar .settings .categories .category .content .app .permissions h5 {
+	color: #fff;
+}
+.sidebar .settings .categories .category .content .app .permissions p {
+	font-weight: 500;
+}
+.sidebar .settings .categories .category .content .app .slider {
+	background-color: #2f2e32;
+}
+/* 2.4.4 Language
+==================================== */
+.sidebar .settings .categories .category .content .language label {
+	color: #fff;
+}
+.sidebar .settings .categories .category .content .language .custom-select {
+	background: #38373a;
+	color: #858586;
+	font-weight: 500;
+}
+.sidebar .settings .categories .category .content .language select > option {
+	font-weight: 500;
+}
+/* 2.4.5 Set
+==================================== */
+.sidebar .settings .categories .category .content .set {
+	padding: 21px 0 18px;
+	border-bottom: 2px solid #323135;
+}
+.sidebar .settings .categories .category .content .set .details h5 {
+	color: #fff;
+	margin-bottom: 6px;
+}
+.sidebar .settings .categories .category .content .set .details p {
+	font-weight: 500;
+	line-height: 1.7;
+}
+/* 3. Requests
+==================================== */
+.requests {
+	background: #2f2e32;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.12);
+}
+.requests .title {
+	background: #2e2d31;
+}
+.requests .title h1 {
+	color: #fff;
+}
+.requests .title .material-icons {
+	color: #fff;
+	font-weight: 800;
+}
+.requests .content .form-group label {
+	color: #fff;
+}
+.requests .content .form-group .form-control {
+	font-weight: 500;
+}
+.requests .content .form-group .form-control::placeholder {
+	font-weight: 500;
+}
+.requests .content .text-control {
+	background: #38373a;
+	font-weight: 500;
+	color: #858586!important;
+}
+.requests .content .text-control::placeholder {
+	color: #858586;
+}
+.requests .content .user {
+	background: #E2001A;
+}
+.requests .content .user .avatar-sm {
+	box-shadow: none;
+}
+.requests .content .user h5 {
+	color: #fff;
+}
+.requests .content .user .btn .material-icons {
+	color: #fff;
+}
+/* 4. Main
+==================================== */
+.main {
+	background: #2f2e32;
+}
+.main .chat .attach {
+	background: #E2001A;
+	color: #fff;
+	border-radius: 100%;
+}
+.main .chat .attach:hover {
+	color: #fff;
+}
+.main .chat .top {
+	background: #2b2a2e;
+	border-bottom: 2px solid transparent;
+}
+.main .chat .top .inside .status {
+	border: 5px solid #2b2a2e;
+}
+.main .chat .top .inside .data h5 {
+	color: #fff;
+}
+.main .chat .top .inside .data span {
+	font-weight: 500;
+}
+.main .chat .top .inside .btn:hover {
+	color: #E2001A;
+}
+.main .chat .content .date span {
+	font-weight: 500;
+}
+.main .chat .content .date hr {
+	border-top: 2px solid #38373a;
+}
+.main .chat .content .message .text {
+	background: #38373a;
+}
+.main .chat .content .message .text.typing .wave .dot {
+	background: #858586;
+}
+.main .chat .content .message .text.me {
+	background: #2b2a2e;
+}
+.main .chat .content .message .text.me .attachment .attach {
+	background: #E2001A;
+	color: #fff;
+}
+.main .chat .content .message .text.me .attachment .file h5 {
+	color: #E2001A;
+}
+.main .chat .content .message .text.me .attachment .file a:hover {
+	color: #E2001A;
+}
+.main .chat .content .message .text.me .attachment .file span {
+	color: #858586;
+}
+.main .chat .content .message .text p {
+	font-weight: 500;
+}
+.main .chat .content .message .text.me p {
+	color: #858586;
+}
+.main .chat .content .message span {
+	font-weight: 500;
+}
+.main .chat .content .no-messages p {
+	font-weight: 500;
+}
+.main .chat .bottom {
+	border-top: 2px solid #38373a;
+}
+.main .chat .bottom .form-control {
+	font-weight: 500;
+}
+.main .chat .bottom .form-control::placeholder {
+	font-weight: 500;
+}
+.main .chat .bottom .btn {
+	color: #858586;
+}
+/* Responsive
+==================================== */
+@media (min-width: 992px) {
+	.navigation {
+		border-right: 2px solid transparent;
+	}
+	.sidebar {
+		border-right: none;
+	}
+	.sidebar::-webkit-scrollbar-thumb {
+		background: #38373a;
+	}
+}
+@media (max-width: 991px) {
+	.navigation {
+		box-shadow: none;
+	}
+}
