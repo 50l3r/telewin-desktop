@@ -1,0 +1,31 @@
+.aside {
+	background: #e2001a;
+}
+
+.main .start {
+	background: rgb(33, 33, 33);
+}
+
+.button {
+	background: #e2001a;
+	box-shadow: 0 0 30px 5px #000000;
+}
+
+.aside .preference .button {
+	color: #e2001a;
+}
+
+.roto2 {
+	max-width: 200px;
+	margin-bottom: 40px;
+}
+
+#topbar {
+	width: 100%;
+	-webkit-user-select: none;
+	-webkit-app-region: drag;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 40px;
+}

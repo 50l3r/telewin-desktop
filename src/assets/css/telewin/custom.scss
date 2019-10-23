@@ -1,0 +1,137 @@
+html,
+body {
+	overflow: hidden;
+}
+
+.main .chat .content .message {
+	border-bottom: 2px solid #323135;
+	padding-bottom: 20px;
+}
+
+.main .chat .content .message:last-child {
+	border-bottom: 0px solid #323135;
+	padding-bottom: 0px;
+}
+
+.btn-success {
+	color: #fff !important;
+	background-color: #28a745 !important;
+	border-color: #28a745 !important;
+}
+
+.minning {
+	height: 80px;
+	cursor: pointer;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.main .chat .bottom {
+	padding: 10px 0;
+}
+
+.arrow {
+	font-weight: bold;
+	line-height: 60px;
+}
+
+.avatar-profile {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin-bottom: 20px;
+	border: 10px solid white;
+}
+
+.main .chat.chat-bottom .content > div {
+	margin-top: 0;
+}
+
+.main .chat .bottom input {
+	display: inherit;
+}
+
+.main .chat .btn {
+	padding: 15px;
+	line-height: inherit;
+}
+
+.main .chat .bottom .form-control {
+	padding: 16px;
+}
+
+.button {
+	padding: 14px 25px;
+}
+
+/* SIDEBAR */
+.navigation {
+	background: #e2001a;
+}
+
+.navigation .inside .menu .material-icons.active,
+.navigation .inside .menu .material-icons {
+	color: white;
+	z-index: 99;
+}
+
+.navigation .inside .menu .avatar-xl {
+	border: 3px solid white;
+}
+
+/* TOAST */
+.toasted-container.full-width {
+	width: 100%;
+	text-align: center;
+	padding-left: 100px;
+}
+
+.toasted-container .toasted {
+	margin-top: 0px;
+	margin-bottom: 10px;
+	box-shadow: none;
+	border-radius: 0;
+}
+
+.toasted {
+	min-height: 38px;
+	line-height: 1.1em;
+	padding: 6px 20px;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.toasted .primary,
+.toasted.toasted-primary {
+	background-color: #e2001a;
+}
+
+.toasted.toasted-warning {
+	background-color: #ff8200;
+	color: #fff;
+}
+
+.toasted.toasted-success {
+	background-color: #17c964;
+	color: #fff;
+}
+.toasted-container .toasted .action {
+	margin: 0;
+}
+
+/* APP */
+#topbar {
+	width: 100%;
+	-webkit-user-select: none;
+	-webkit-app-region: drag;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 40px;
+}
+
+main {
+	width: 100%;
+}
